@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
                                     # FILES + QUESTIONS
 
-file = 'C:\\Users\\ddobr\\CPS 412\\ChatGPT (Responses).csv' # Absolute file path here
+file = 'ChatGPT (Responses).csv' 
 df = pd.read_csv(file)
 df = df.drop('Timestamp', axis=1) # Deleting the time stamps column
 
